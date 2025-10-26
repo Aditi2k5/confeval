@@ -1,0 +1,3 @@
+model,phase,faithfulness,ece,mean_confidence,bertscore_f1,cases_underconf_correct,cases_overconf_error,cases_underconf_halluc,cases_plausible_halluc
+Llama-3.2-1B-Instruct,base,0.22809523809523807,0.1858533829450607,0.6743021816015243,0.5492119193077087,0,8,1,0
+Llama-3.2-1B-Instruct,post_da,0.3765873015873016,0.07710824906826018,0.7739275246858597,0.8510357737541199,0,11,0,0

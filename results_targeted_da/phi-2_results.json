@@ -1,0 +1,79 @@
+{
+  "model_name": "microsoft/phi-2",
+  "model_short": "phi-2",
+  "timestamp": "2025-10-21T10:56:14.433277",
+  "base_metrics": {
+    "faithfulness": 0.3395436507936508,
+    "ece": 0.06877934336662293,
+    "bertscore_f1": 0.7973718643188477,
+    "case_counts": {
+      "underconf_correct": 0,
+      "overconf_error": 8,
+      "underconf_halluc": 1,
+      "plausible_halluc": 0
+    }
+  },
+  "post_da_metrics": {
+    "faithfulness": 0.36078643578643577,
+    "ece": 0.05881313979625702,
+    "bertscore_f1": 0.8318811655044556,
+    "case_counts": {
+      "underconf_correct": 0,
+      "overconf_error": 13,
+      "underconf_halluc": 1,
+      "plausible_halluc": 0
+    }
+  },
+  "deltas": {
+    "faithfulness": {
+      "base": 0.3395436507936508,
+      "post": 0.36078643578643577,
+      "delta": 0.02124278499278498,
+      "pct_change": 6.256275133736709
+    },
+    "ece": {
+      "base": 0.06877934336662293,
+      "post": 0.05881313979625702,
+      "delta": -0.009966203570365914,
+      "pct_change": -14.490111540091103
+    },
+    "mean_confidence": {
+      "base": 0.7768273949623108,
+      "post": 0.8545583754777908,
+      "delta": 0.07773098051548,
+      "pct_change": 10.006210004894491
+    },
+    "bertscore_f1": {
+      "base": 0.7973718643188477,
+      "post": 0.8318811655044556,
+      "delta": 0.03450930118560791,
+      "pct_change": 4.32788046955825
+    },
+    "case_deltas": {
+      "underconf_correct": {
+        "base": 0,
+        "post": 0,
+        "delta": 0,
+        "pct_change": 0
+      },
+      "overconf_error": {
+        "base": 8,
+        "post": 13,
+        "delta": 5,
+        "pct_change": 62.5
+      },
+      "underconf_halluc": {
+        "base": 1,
+        "post": 1,
+        "delta": 0,
+        "pct_change": 0.0
+      },
+      "plausible_halluc": {
+        "base": 0,
+        "post": 0,
+        "delta": 0,
+        "pct_change": 0
+      }
+    }
+  }
+}

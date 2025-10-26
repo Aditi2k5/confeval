@@ -1,0 +1,79 @@
+{
+  "model_name": "meta-llama/Llama-3.2-1B-Instruct",
+  "model_short": "Llama-3.2-1B-Instruct",
+  "timestamp": "2025-10-23T19:21:22.396185",
+  "base_metrics": {
+    "faithfulness": 0.22809523809523807,
+    "ece": 0.1858533829450607,
+    "bertscore_f1": 0.5492119193077087,
+    "case_counts": {
+      "underconf_correct": 0,
+      "overconf_error": 8,
+      "underconf_halluc": 1,
+      "plausible_halluc": 0
+    }
+  },
+  "post_da_metrics": {
+    "faithfulness": 0.3765873015873016,
+    "ece": 0.07710824906826018,
+    "bertscore_f1": 0.8510357737541199,
+    "case_counts": {
+      "underconf_correct": 0,
+      "overconf_error": 11,
+      "underconf_halluc": 0,
+      "plausible_halluc": 0
+    }
+  },
+  "deltas": {
+    "faithfulness": {
+      "base": 0.22809523809523807,
+      "post": 0.3765873015873016,
+      "delta": 0.1484920634920635,
+      "pct_change": 65.10090466249132
+    },
+    "ece": {
+      "base": 0.1858533829450607,
+      "post": 0.07710824906826018,
+      "delta": -0.10874513387680053,
+      "pct_change": -58.51124803520321
+    },
+    "mean_confidence": {
+      "base": 0.6743021816015243,
+      "post": 0.7739275246858597,
+      "delta": 0.09962534308433535,
+      "pct_change": 14.774584126024445
+    },
+    "bertscore_f1": {
+      "base": 0.5492119193077087,
+      "post": 0.8510357737541199,
+      "delta": 0.30182385444641113,
+      "pct_change": 54.95580919417507
+    },
+    "case_deltas": {
+      "underconf_correct": {
+        "base": 0,
+        "post": 0,
+        "delta": 0,
+        "pct_change": 0
+      },
+      "overconf_error": {
+        "base": 8,
+        "post": 11,
+        "delta": 3,
+        "pct_change": 37.5
+      },
+      "underconf_halluc": {
+        "base": 1,
+        "post": 0,
+        "delta": -1,
+        "pct_change": -100.0
+      },
+      "plausible_halluc": {
+        "base": 0,
+        "post": 0,
+        "delta": 0,
+        "pct_change": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "model_name": "google/gemma-2-2b-it",
+  "model_short": "gemma-2-2b-it",
+  "timestamp": "2025-10-22T17:22:20.693251",
+  "base_metrics": {
+    "faithfulness": 0.35932900432900433,
+    "ece": 0.025181564688682535,
+    "bertscore_f1": 0.8410331606864929,
+    "case_counts": {
+      "underconf_correct": 0,
+      "overconf_error": 14,
+      "underconf_halluc": 0,
+      "plausible_halluc": 0
+    }
+  },
+  "post_da_metrics": {
+    "faithfulness": 0.5380862193362194,
+    "ece": 0.03735545575618743,
+    "bertscore_f1": 0.8581636548042297,
+    "case_counts": {
+      "underconf_correct": 0,
+      "overconf_error": 7,
+      "underconf_halluc": 0,
+      "plausible_halluc": 0
+    }
+  },
+  "deltas": {
+    "faithfulness": {
+      "base": 0.35932900432900433,
+      "post": 0.5380862193362194,
+      "delta": 0.17875721500721503,
+      "pct_change": 49.74750517037127
+    },
+    "ece": {
+      "base": 0.025181564688682535,
+      "post": 0.03735545575618743,
+      "delta": 0.012173891067504893,
+      "pct_change": 48.344458408401685
+    },
+    "mean_confidence": {
+      "base": 0.8158515959978103,
+      "post": 0.8713383704423905,
+      "delta": 0.05548677444458017,
+      "pct_change": 6.801086707039927
+    },
+    "bertscore_f1": {
+      "base": 0.8410331606864929,
+      "post": 0.8581636548042297,
+      "delta": 0.017130494117736816,
+      "pct_change": 2.0368393207889754
+    },
+    "case_deltas": {
+      "underconf_correct": {
+        "base": 0,
+        "post": 0,
+        "delta": 0,
+        "pct_change": 0
+      },
+      "overconf_error": {
+        "base": 14,
+        "post": 7,
+        "delta": -7,
+        "pct_change": -50.0
+      },
+      "underconf_halluc": {
+        "base": 0,
+        "post": 0,
+        "delta": 0,
+        "pct_change": 0
+      },
+      "plausible_halluc": {
+        "base": 0,
+        "post": 0,
+        "delta": 0,
+        "pct_change": 0
+      }
+    }
+  }
+}
