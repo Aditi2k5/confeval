@@ -70,5 +70,3 @@ pip install -r requirements.txt
 # Launch the Jupyter notebook for interactive analysis
 jupyter notebook llm_faithfulness_targeted_da.ipynb
 
-# Run benchmark scripts
-python run_benchmark.py --model microsoft/phi-2 --config configs/phi2.yaml
